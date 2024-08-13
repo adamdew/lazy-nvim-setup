@@ -6,3 +6,5 @@ vim.o.expandtab = true   -- Pressing the TAB key will insert spaces instead of a
 vim.o.softtabstop = 4    -- Number of spaces inserted instead of a TAB character
 vim.o.shiftwidth = 4     -- Number of spaces inserted when indenting- Add any additional options here
 vim.g.autoformat = false -- Disable autoformating
+vim.g.nofixeol = true -- Disable adding newlines at the end of files
+vim.g.nofixendofline = true
