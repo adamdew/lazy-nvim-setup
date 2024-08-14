@@ -8,3 +8,4 @@ vim.o.shiftwidth = 4     -- Number of spaces inserted when indenting- Add any ad
 vim.g.autoformat = false -- Disable autoformating
 vim.g.nofixeol = true -- Disable adding newlines at the end of files
 vim.g.nofixendofline = true
+vim.keymap.set('n', '<C-c>', '<Esc>')
