@@ -26,7 +26,7 @@ return {
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
     What is thy bidding my master?? ]]
 
-    logo = string.rep("\n", 8) .. logo .. "\n\n"
+    logo = logo .. "\n\n"
 
     local opts = {
       theme = "doom",
