@@ -9,6 +9,7 @@ require("lspconfig").intelephense.setup({
     intelephense = {
       format = { braces = "k&r" },
       environment = { phpVersion = "8.1.0" },
+      filetypes = {"php", "phtml", "blade"}
     },
   },
 })

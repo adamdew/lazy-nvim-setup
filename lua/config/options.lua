@@ -9,3 +9,4 @@ vim.g.autoformat = false -- Disable autoformating
 vim.g.nofixeol = true -- Disable adding newlines at the end of files
 vim.g.nofixendofline = true
 vim.keymap.set("n", "<C-c>", "<Esc>")
+vim.opt.cursorlineopt='number'
