@@ -7,6 +7,7 @@ return {
       "typescript-language-server",
       "prettier",
       "php-cs-fixer",
+      "css-lsp",
     },
   },
 }
