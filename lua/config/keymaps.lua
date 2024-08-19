@@ -13,3 +13,7 @@ vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 vim.keymap.set("i", "<C-c>", "<Esc>")
+
+vim.keymap.set("n", "<leader>ot", vim.cmd.ObsidianToday, {desc = "open daily note for today."})
+vim.keymap.set("n", "<leader>oy", vim.cmd.ObsidianYesterday, {desc = "open daily note for yesterday."})
+vim.keymap.set("n", "<leader>om", vim.cmd.ObsidianTomorrow, {desc = "open daily note for tomorrow."})
