@@ -17,3 +17,6 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("n", "<leader>ot", vim.cmd.ObsidianToday, {desc = "open daily note for today."})
 vim.keymap.set("n", "<leader>oy", vim.cmd.ObsidianYesterday, {desc = "open daily note for yesterday."})
 vim.keymap.set("n", "<leader>om", vim.cmd.ObsidianTomorrow, {desc = "open daily note for tomorrow."})
+vim.keymap.set("n", "<leader>oo", vim.cmd.ObsidianBacklinks, {desc = "open note backlinks"})
+
+vim.keymap.set("v", "<leader>nn", 'y/<C-r>"<cr>', {desc = "search for next occurance of selection"})

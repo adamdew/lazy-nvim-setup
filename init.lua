@@ -33,3 +33,6 @@ require("obsidian").setup({
     },
   },
 })
+
+
+require("tint").setup()
