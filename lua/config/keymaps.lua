@@ -20,3 +20,5 @@ vim.keymap.set("n", "<leader>om", vim.cmd.ObsidianTomorrow, {desc = "open daily 
 vim.keymap.set("n", "<leader>oo", vim.cmd.ObsidianBacklinks, {desc = "open note backlinks"})
 
 vim.keymap.set("v", "<leader>nn", 'y/<C-r>"<cr>', {desc = "search for next occurance of selection"})
+
+vim.keymap.set("n", "<leader>p", '"0p', {desc = "paste last yanked text"})
