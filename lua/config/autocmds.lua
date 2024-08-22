@@ -3,6 +3,7 @@
 -- Add any additional autocmds here
 vim.cmd([[highlight Visual guifg=white guibg=green]])
 vim.cmd([[highlight Cursor guifg=black guibg=green]])
+vim.cmd('set indentexpr cindent')
 
 require("lspconfig").intelephense.setup({
   settings = {

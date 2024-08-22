@@ -25,4 +25,13 @@ vim.keymap.set("n", "<leader>p", '"0p', {desc = "paste last yanked text"})
 vim.keymap.set("n", "-", "<cmd>Oil<cr>", { desc = "Open parent directory" })
 vim.keymap.set("n", "X", LazyVim.ui.bufremove, { desc = "Delete buffer" })
 vim.keymap.set("n", "XX", "<cmd>:bd<cr>", { desc = "Delete buffer and window" })
+vim.keymap.set("n", "XX", "<cmd>:bd<cr>", { desc = "Delete buffer and window" })
 
+-- Yanky
+vim.keymap.set({"n","x"}, "p", "<Plug>(YankyPutAfter)")
+vim.keymap.set({"n","x"}, "P", "<Plug>(YankyPutBefore)")
+vim.keymap.set({"n","x"}, "gp", "<Plug>(YankyGPutAfter)")
+vim.keymap.set({"n","x"}, "gP", "<Plug>(YankyGPutBefore)")
+
+vim.keymap.set("n", "<c-p>", "<Plug>(YankyPreviousEntry)")
+vim.keymap.set("n", "<c-n>", "<Plug>(YankyNextEntry)")
