@@ -14,9 +14,9 @@ require("bigfile").setup({
   end,
   features = { -- features to disable
     "indent_blankline",
-    "illuminate",
-    -- "lsp",
-    "treesitter",
+    -- "illuminate",
+    "lsp",
+    -- "treesitter",
     -- "syntax",
     -- "matchparen",
     -- "vimopts",
