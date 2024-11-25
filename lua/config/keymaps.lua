@@ -22,6 +22,8 @@ vim.keymap.set("n", "<leader>oo", vim.cmd.ObsidianBacklinks, {desc = "open note 
 vim.keymap.set("v", "<leader>nn", 'y/<C-r>"<cr>', {desc = "search for next occurance of selection"})
 
 vim.keymap.set("n", "-", "<cmd>Oil<cr>", { desc = "Open parent directory" })
-vim.keymap.set("n", "X", LazyVim.ui.bufremove, { desc = "Delete buffer" })
 vim.keymap.set("n", "XX", "<cmd>:bd<cr>", { desc = "Delete buffer and window" })
 vim.keymap.set("n", "XX", "<cmd>:bd<cr>", { desc = "Delete buffer and window" })
+
+
+vim.keymap.set("n", "<leader>r", ":!gcc % -o %< && ./%<<CR>", { noremap = true, silent = true })
